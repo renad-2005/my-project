@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ريناد | الصفحة الرئيسية</title>
+<meta name="description" content="موقع ريناد الشخصي: من أنا، مهاراتي، وطرق التواصل">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;800&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><div class="container nav">
+  <a class="logo" href="index.html"><img src="images/avatar.svg" alt="شعار ريناد">ريناد</a>
+  <nav>
+    <button id="menuBtn" aria-label="القائمة">☰</button>
+    <ul id="menu">
+      <li><a href="index.html" class="active">الرئيسية</a></li>
+      <li><a href="about.html">من أنا</a></li>
+      <li><a href="shop.html">متجري التجريبي</a></li>
+      <li><a href="contact.html">تواصل معي</a></li>
+      <li id="authBox" class="authbox"></li>
+      <li><button id="themeBtn" aria-label="تبديل الوضع الداكن">🌙</button></li>
+    </ul>
+  </nav>
+</div></header>
+<main>
+<div class="container hero">
+  <div>
+    <p class="tag">أهلا بك في موقعي</p>
+    <h1>أنا ريناد، طالبة تجارة إلكترونية أبني متجري الأول بالكود</h1>
+    <div class="typing" id="typing" aria-live="polite"></div>
+    <p>هذا مشروعي في مقرر مبادئ برمجة صفحات الإنترنت. فيه أعرّفك بي، وأعرض لك متجرًا تجريبيًا يعمل فعلا: تتصفح المنتجات، وتضيفها للسلة، ويُحسب لك المجموع.</p>
+    <div class="btns">
+      <a class="btn primary" href="shop.html">جرّب متجري</a>
+      <a class="btn ghost" href="about.html">تعرّف عليّ</a>
+    </div>
+  </div>
+  <img src="images/hero.svg" alt="رسم لنافذة محرر أكواد">
+</div>
+
+<section class="alt"><div class="container reveal">
+  <h2>فكرة الموقع</h2>
+  <p>تخصصي التجارة الإلكترونية، فأردت أن يكون موقعي نفسه مثالا عمليا: واجهة واضحة تعرّف بي، ومتجر تجريبي يوضح كيف يتحول الزائر إلى مشترٍ.</p>
+  <div class="grid">
+    <div class="card"><h3>أربع صفحات مترابطة</h3><p>الرئيسية، من أنا، متجري التجريبي، وتواصل معي، بقائمة تنقل ثابتة في كل صفحة.</p></div>
+    <div class="card"><h3>تصميم موحّد</h3><p>ملف CSS واحد يتحكم في الألوان والخطوط والمسافات لكل الصفحات.</p></div>
+    <div class="card"><h3>متجر يعمل بـ JavaScript</h3><p>تصفية المنتجات حسب القسم، سلة مشتريات بالكميات والمجموع، ووضع داكن.</p></div>
+  </div>
+</div></section>
+
+<section><div class="container reveal">
+  <h2>كيف بنيت الموقع</h2>
+  <ol class="steps">
+    <li><div><b>رتّبت الملفات.</b> مجلد لكل نوع: css للتنسيق، js للتفاعل، images للصور، media للفيديو.</div></li>
+    <li><div><b>كتبت الهيكل بـ HTML.</b> عناوين وفقرات وروابط بين الصفحات، واتجاه الصفحة من اليمين لليسار.</div></li>
+    <li><div><b>نسّقت بـ CSS.</b> متغيرات للألوان، وشبكة (Grid) لترتيب المحتوى، وتعديلات للجوال.</div></li>
+    <li><div><b>برمجت المتجر بـ JavaScript.</b> المنتجات مخزنة في مصفوفة، والسلة تحسب الكميات والمجموع تلقائيا.</div></li>
+    <li><div><b>جرّبت كل شيء.</b> فتحت كل صفحة وكل رابط للتأكد من خلو الموقع من الأخطاء.</div></li>
+  </ol>
+</div></section>
+</main>
+<footer><div class="container">© 2026 ريناد — مشروع مقرر مبادئ برمجة صفحات الإنترنت</div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>

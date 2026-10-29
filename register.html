@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ريناد | إنشاء حساب</title>
+<meta name="description" content="ريناد | إنشاء حساب">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;800&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><div class="container nav">
+  <a class="logo" href="index.html"><img src="images/avatar.svg" alt="شعار ريناد">ريناد</a>
+  <nav>
+    <button id="menuBtn" aria-label="القائمة">☰</button>
+    <ul id="menu">
+      <li><a href="index.html">الرئيسية</a></li>
+      <li><a href="about.html">من أنا</a></li>
+      <li><a href="shop.html">متجري التجريبي</a></li>
+      <li><a href="contact.html">تواصل معي</a></li>
+      <li id="authBox" class="authbox"></li>
+      <li><button id="themeBtn" aria-label="تبديل الوضع الداكن">🌙</button></li>
+    </ul>
+  </nav>
+</div></header>
+<main><div class="container"><div class="authcard">
+  <h1>إنشاء حساب</h1>
+  <p>سجّلي بياناتك لتتمكني من إتمام الطلبات في المتجر.</p>
+  <form id="registerForm" novalidate>
+    <div><label for="name">الاسم</label><input id="name" type="text" autocomplete="name"><div class="err" id="e-name"></div></div>
+    <div><label for="email">البريد الإلكتروني</label><input id="email" type="email" dir="ltr" autocomplete="email"><div class="err" id="e-email"></div></div>
+    <div><label for="pass">كلمة المرور</label><input id="pass" type="password" autocomplete="new-password"><div class="err" id="e-pass"></div></div>
+    <div><label for="pass2">تأكيد كلمة المرور</label><input id="pass2" type="password" autocomplete="new-password"><div class="err" id="e-pass2"></div></div>
+    <button class="btn primary" type="submit">إنشاء الحساب</button>
+    <div class="err" id="e-form"></div>
+  </form>
+  <p class="alt-link">لديك حساب؟ <a href="login.html">سجّلي الدخول</a></p>
+  <p class="note">هذا تسجيل تجريبي للواجهة، والبيانات تُحفظ في متصفحك فقط. لا تستخدمي كلمة مرور حقيقية.</p>
+</div></div></main>
+<footer><div class="container">© 2026 ريناد — مشروع مقرر مبادئ برمجة صفحات الإنترنت</div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
